@@ -49,7 +49,6 @@ whois networkwalks.com
 
 **Evidence:**  
 - Screenshot: `screenshots/task-1-whois.png`
-- Output: `outputs/whois.txt`
 
 ### Task 2: Web Technology Fingerprinting
 
@@ -61,7 +60,6 @@ whatweb networkwalks.com
 
 **Evidence:**  
 - Screenshot: `screenshots/task-2-whatweb.png`
-- Output: `outputs/whatweb.txt`
 
 ### Task 3: DNS Resolution
 
@@ -73,7 +71,6 @@ nslookup networkwalks.com
 
 **Evidence:**  
 - Screenshot: `screenshots/task-3-nslookup.png`
-- Output: `outputs/nslookup.txt`
 
 ### Task 4: HTTP Response Header Analysis
 
@@ -85,7 +82,6 @@ curl -I https://networkwalks.com
 
 **Evidence:**  
 - Screenshot: `screenshots/task-4-curl-headers.png`
-- Output: `outputs/curl-headers.txt`
 
 ### Task 5: Web Application Firewall Detection
 
@@ -97,7 +93,6 @@ wafw00f networkwalks.com
 
 **Evidence:**  
 - Screenshot: `screenshots/task-5-wafw00f.png`
-- Output: `outputs/wafw00f.txt`
 
 ### Task 6: DNS Enumeration
 
@@ -109,7 +104,6 @@ dnsrecon -d networkwalks.com
 
 **Evidence:**  
 - Screenshot: `screenshots/task-6-dnsrecon.png`
-- Output: `outputs/dnsrecon.txt`
 
 ## 📊 Findings
 
