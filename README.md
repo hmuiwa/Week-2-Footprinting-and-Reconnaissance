@@ -1,7 +1,3 @@
-# Week-2-Footprinting-and-Reconnaissance
-Week 2 Cybersecurity Project Module 1: Footprinting and Reconnaissance using six Kali Linux tools — WHOIS, WhatWeb, NSLookup, cURL, WAFW00F, and DNSRecon.
-
-
 # WEEK 2 | PROJECT MODULE 1
 # Footprinting & Reconnaissance Attacks Using Multiple Kali Linux Tools
 
