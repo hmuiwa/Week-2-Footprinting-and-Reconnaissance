@@ -1,4 +1,4 @@
-# WEEK 2 | PROJECT MODULE 1
+# WEEK 2 
 # Footprinting & Reconnaissance Attacks Using Multiple Kali Linux Tools
 
 ## 📌 Project Overview
