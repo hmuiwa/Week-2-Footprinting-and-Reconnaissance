@@ -133,11 +133,139 @@ Screenshots of each task are stored in the `screenshots/` directory to provide e
 - Cybersecurity documentation
 - Information gathering and reconnaissance
 
+
+# Network Scanning with Zenmap
+
+## 📌 Project Overview
+
+This project focuses on network scanning and host discovery using Zenmap, the graphical user interface (GUI) for Nmap.
+
+The objective is to identify live hosts within a local area network (LAN), discover their IP and MAC addresses, determine the number of active devices, and visualize the network topology.
+
+This practical exercise was conducted using Zenmap on a Windows PC.
+
+## 🎯 Objectives
+
+- Download and install Zenmap on Windows.
+- Identify the local IP address and LAN subnet.
+- Perform a ping scan to discover live hosts.
+- Determine the number of active hosts.
+- Identify the IP addresses of discovered hosts.
+- Identify the MAC addresses of discovered hosts.
+- Generate and export a network topology diagram as a PDF.
+
+## 🛠️ Tools Used
+
+| Tool | Purpose |
+|---|---|
+| Zenmap | GUI-based network scanning |
+| Nmap | Network discovery and scanning engine |
+| Windows CMD | IP configuration and MAC address identification |
+| ipconfig | Retrieve local network configuration |
+
+## 🎯 Lab Environment
+
+- **Operating System:** Windows
+- **Scanning Tool:** Zenmap
+- **Network Type:** Local Area Network (LAN)
+- **Scan Type:** Ping Scan
+- **Subnet:** 10.0.0.0/24 (instructor's example; actual subnet may differ)
+
+## 🧪 Tasks Performed
+
+### Task 1: Download and Install Zenmap
+
+Zenmap was downloaded from the official Nmap website and installed on the Windows PC.
+
+Official download page: https://nmap.org/download.html
+
+### Task 2: Identify Local IP Address and LAN Subnet
+
+The Windows Command Prompt was used to identify the local IP address and network configuration.
+
+```cmd
+ipconfig
+```
+
+### Task 3: Discover Live Hosts
+
+A Ping Scan was performed in Zenmap to identify active hosts within the local subnet.
+
+Example target subnet:
+
+```text
+192.168.0.0/24
+```
+
+### Task 4: Determine the Number of Live Hosts
+
+The scan identified four live hosts, including the scanning PC, according to the provided lab results.
+
+### Task 5: Identify IP Addresses of Live Hosts
+
+The discovered IP addresses were:
+
+```text
+192.168.0.100
+192.168.0.101
+```
+
+### Task 6: Identify MAC Addresses of Live Hosts
+
+The MAC addresses identified during the lab were:
+
+```text
+B4:0F:3B:5B:0C:90
+04:95:E6:CF:39:18
+```
+
+The local PC's MAC address can be obtained using:
+
+```cmd
+ipconfig /all
+```
+
+### Task 7: Generate Network Topology
+
+Zenmap's Topology tab was used to visualize the discovered hosts and their network relationships.
+
+The topology was exported as a PDF file and saved for documentation.
+
+## 📊 Results
+
+- **Total Live Hosts:** 4
+- **Scan Type:** Ping Scan
+- **IP Addresses Identified:** 4
+- **MAC Addresses Identified:** 4
+- **Network Topology:** Exported as PDF
+
+## 🧠 Skills Acquired
+
+- Network scanning
+- Host discovery
+- LAN subnet identification
+- IP address enumeration
+- MAC address identification
+- Nmap and Zenmap usage
+- Network topology visualization
+- Windows network troubleshooting
+
+## 📸 Evidence
+
+Screenshots of the tasks performed are available in the `screenshots/` directory.
+
+The exported network topology PDF is stored in the `reports/` directory.
+
 ## 📝 Conclusion
 
-This project provided practical experience in performing footprinting and reconnaissance using multiple Kali Linux tools. Each tool revealed different aspects of the target's publicly accessible infrastructure.
+This project provided practical experience in network scanning and host discovery using Zenmap. I learned how to identify live devices within a local network, retrieve their IP and MAC addresses, and visualize the network topology.
 
-The exercise strengthened my understanding of information gathering, DNS analysis, web technology identification, and the importance of reconnaissance during a security assessment.
+The exercise strengthened my understanding of network reconnaissance and the importance of identifying active hosts during a cybersecurity assessment.
+
+## ⚠️ Disclaimer
+
+This project was conducted for educational purposes. Network scanning should only be performed on networks and devices for which you have explicit authorization.
+
 
 ## ⚠️ Disclaimer
 
